@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/HeloBaron.png',
     alt: 'Helo Baron',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
